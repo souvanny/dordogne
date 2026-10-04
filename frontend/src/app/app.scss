@@ -1,0 +1,63 @@
+:host {
+  display: flex;
+  flex-direction: column;
+  min-height: 100dvh;
+}
+
+.site-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem 1.5rem;
+  background: var(--parchment);
+  border-bottom: 1px solid var(--green-200);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.brand-mark {
+  width: 1.6rem;
+  height: 1.6rem;
+  background: var(--green-700);
+  clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
+}
+
+.brand-name {
+  font-family: var(--serif);
+  font-weight: 700;
+  font-size: 1.4rem;
+  color: var(--green-900);
+  letter-spacing: 0.02em;
+}
+
+.brand-tagline {
+  margin-left: auto;
+  font-size: 0.85rem;
+  color: var(--ink-muted);
+  letter-spacing: 0.04em;
+}
+
+.site-main {
+  flex: 1;
+}
+
+.site-footer {
+  padding: 1.5rem;
+  text-align: center;
+  background: var(--green-950);
+  color: var(--green-200);
+  font-size: 0.85rem;
+}
+
+@media (max-width: 560px) {
+  .brand-tagline {
+    display: none;
+  }
+}

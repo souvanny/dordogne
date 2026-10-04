@@ -14,10 +14,10 @@ centralisée dans le fichier `.env` à la racine. Il est lu à la fois par le
 
 | Service | Port local |
 |---------|-----------|
-| API (nginx) | 8085 |
-| Frontend | 8185 |
-| phpMyAdmin | 8285 |
-| MySQL | 3385 |
+| API (nginx) | 8086 |
+| Frontend | 8186 |
+| phpMyAdmin | 8286 |
+| MySQL | 3386 |
 
 ---
 
@@ -42,10 +42,10 @@ est absent, et le conteneur frontend exécute `npm install && npm start`
 
 | Service | URL |
 |---------|-----|
-| Frontend (Angular dev) | http://localhost:8185 |
-| API | http://localhost:8085/api |
-| Healthcheck | http://localhost:8085/api/health |
-| phpMyAdmin | http://localhost:8285 |
+| Frontend (Angular dev) | http://localhost:8186 |
+| API | http://localhost:8086/api |
+| Healthcheck | http://localhost:8086/api/health |
+| phpMyAdmin | http://localhost:8286 |
 
 Le front proxifie `/api` vers le conteneur `nginx_api` (voir `frontend/proxy.conf.json`).
 
@@ -87,7 +87,7 @@ npm run start:local
 ```
 
 `start:local` utilise `proxy.local.json`, qui redirige `/api` vers
-`http://localhost:8085` (l'API exposée par Docker). Le front est alors
+`http://localhost:8086` (l'API exposée par Docker). Le front est alors
 accessible sur http://localhost:4200.
 
 > `npm run start` (sans `:local`) utilise `proxy.conf.json`, qui cible

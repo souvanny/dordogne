@@ -1,0 +1,16 @@
+Le projet servira de portail pour mettre en avant la région de Dordogne.
+Analyser le dossier _docs/documents_01
+Se servir de ce dossier pour commencer.
+
+On va dans un premier faire un site de présentation de plusieurs lieux, monuments.
+Le style sera à dominant vert, suggérant la nature.
+Ajouter une touche de médiéval, léger.
+Il sera simple pour le moment simple avec style épuré.
+
+Prévoir le fait que l'on va ajouter petit à petit ajouter des dossiers dans _docs/documents_01.
+Pas base de données pour l'instant, mais convertir ce dossier en dossier plus structurée avec du json.
+
+
+
+
+

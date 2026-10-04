@@ -10,6 +10,10 @@ ENV CHROME_BIN=/usr/local/bin/chrome-no-sandbox
 
 WORKDIR /app
 
+RUN mkdir -p /app/node_modules && chown -R node:node /app
+
+USER node
+
 EXPOSE 4200
 
 CMD ["sh", "-c", "npm install && npm start"]

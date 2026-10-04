@@ -1,0 +1,107 @@
+[
+  {
+    "id": "base-rouffiac",
+    "name": "Base de loisirs de Rouffiac",
+    "category": "nature",
+    "title": "S’évader et s’amuser en pleine nature",
+    "description": [
+      "Nichée dans un environnement verdoyant et paisible, la base de loisirs de Rouffiac offre une gamme d’activités pour tous les goûts. Que ce soit en famille, entre amis ou en groupe, explorez les nombreuses options disponibles pour une journée ou un séjour complet ! Vous serez enchanté par le cadre naturel et l’accueil chaleureux qui vous y attendent.",
+      "En famille ou entre amis, la Base de loisirs de Rouffiac vous accueille dans un havre de paix. Au cœur d’un parc boisé de 100ha, en bordure de l’un des plus grands plans d’eau du Périgord, ce complexe touristique permet la pratique de nombreuses activités sportives sur place : téléski nautique, slackline, bike park, planche à voile, escalade, tir à l’arc, VTT, tyrolienne aquatique, accrobranche, canoe-kayac, paddle…",
+      "Le site dispose d’un camping 3 étoiles comprenant 44 locatifs, 32 emplacements de camping (dont 8 spécifiques camping-car) et un centre d’hébergement pour les groupes (122 places). Il est également équipé d’un bar-restaurant et d’une accessibilité aux personnes à mobilité réduite."
+    ],
+    "url": "https://rouffiac-loisirs.fr/",
+    "images": []
+  },
+  {
+    "id": "chateau-castelnaud",
+    "name": "Château de Castelnaud",
+    "category": "chateau",
+    "title": "L’histoire d'un Château marquant",
+    "description": [
+      "Plongez dans plus de huit siècles d’histoire au Château de Castelnaud, l’un des plus célèbres châteaux forts de Dordogne. Des croisades contre les Albigeois aux guerres de Religion, de l’abandon au XIXe siècle à la restauration et à l’ouverture du musée de la guerre au Moyen Âge, chaque époque a marqué cette forteresse médiévale perchée au-dessus de la vallée de la Dordogne.",
+      "Aujourd’hui, la visite du château permet de découvrir l’époque médiévale et d’explorer l’évolution de ce site incontournable en Périgord Noir."
+    ],
+    "url": "https://castelnaud.com/",
+    "images": [
+      "/data/images/chateau-castelnaud/chateau-castelnaud-boutry.webp",
+      "/data/images/chateau-castelnaud/chateau-castelnaud-lachaud-scaled.webp",
+      "/data/images/chateau-castelnaud/jm-laugery-dji_0040-scaled.webp"
+    ]
+  },
+  {
+    "id": "chateau-hautefort",
+    "name": "Château de Hautefort",
+    "category": "chateau",
+    "title": "Un site exceptionnel à visiter",
+    "description": [
+      "Le château est situé sur un éperon rocheux qui domine la commune et le village de Hautefort. Créé sur une période allant de la fin du XVIe siècle à la fin du XVIIe sur les bases d’une ancienne forteresse médiévale, son architecture évoque nettement les châteaux de la Loire et Versailles.",
+      "Embelli notamment par l’ajout au XIXe siècle d’un jardin à la française et d’un parc paysager, c’est un site unique qui allie la splendeur de la nature et la majesté de l’architecture, à une culture du raffinement héritée et transmise au fil du temps."
+    ],
+    "url": "https://chateau-hautefort.com/",
+    "images": []
+  },
+  {
+    "id": "gouffre-proumeyssac",
+    "name": "Gouffre de Proumeyssac",
+    "category": "grotte",
+    "title": "L’histoire du Gouffre de Proumeyssac",
+    "description": [
+      "Curieuses histoires que celles de ce gouffre, où l’on retrouve bon nombre de légendes, dont celle des fameux canards. Ici, ils vont par couple, et c’est parés d’un joli ruban autour du cou qu’ils auraient été jetés vivants dans l’abîme. Ils auraient été retrouvés quelques jours plus tard sur la Vézère, nageant majestueusement sans doute, et lançant des coin-coin désespérés, aux environs de la fontaine de Frémulot.",
+      "Pour donner quelque créance à cette opinion, une variante racontait qu’une autre paire de canards, jetés dans le trou, aurait reparu au bout d’un certain temps, les ailes toutes brûlées, à Perdigat. Cette commune de St-Chamassy se trouve à l’entrée d’une petite grotte d’où s’échappe une source abondante qui se jette immédiatement dans la Vézère.",
+      "Plus tard, on parlera également de la vasque pétrifiante, dans laquelle les jeunes filles jetaient une pièce d’argent. C’était dans l’espoir de se marier dans l’année. Aujourd’hui encore, y tremper ses doigts est censé porter bonheur."
+    ],
+    "url": "https://www.gouffre-proumeyssac.com/",
+    "images": []
+  },
+  {
+    "id": "roque-saint-christophe",
+    "name": "La Roque Saint-Christophe",
+    "category": "troglodyte",
+    "title": "La préhistoire et l’histoire d’un site troglodytique unique au monde",
+    "description": [
+      "Remarquable par ses formes puissantes, le nombre de ses habitats et l’ancienneté de son occupation par l’Homme, la Roque Saint-Christophe est nichée dans un cadre sauvage d’une rare beauté.",
+      "C’est un véritable mur de calcaire, d’un kilomètre de long et haut de 80 mètres ! Erodé par la rivière la Vézère et le gel au cours des millénaires, une centaine d’abris sous-roche s’est creusée sur ses terrasses aériennes.",
+      "Ces cavités naturelles ont été occupées par l’Homme dès la Préhistoire, puis aménagées pour devenir un fort et une cité troglodytique, du Moyen Âge jusqu’au début de la Renaissance."
+    ],
+    "url": "https://www.roque-st-christophe.com/",
+    "images": []
+  },
+  {
+    "id": "lascaux-2",
+    "name": "Lascaux II",
+    "category": "grotte",
+    "title": "Premier fac-similé de la grotte de Lascaux",
+    "description": [
+      "Ouvert en 1983, soit vingt ans après la fermeture de la grotte de Lascaux, Lascaux II est devenue la première réplique la plus visitée au monde. À seulement quelques pas de l’originale, en plein coeur des bois, vous découvrez l’environnement authentique de la grotte. Depuis la sanctuarisation de la colline en 2014, la fréquentation du lieu est limitée, ce qui lui confère un cadre intimiste et préservé.",
+      "Ce n’est pas qu’une réplique : c’est un fac-similé ! Les galeries emblématiques de Lascaux, la Salle des Taureaux et le Diverticule Axial, y ont été reproduites, du sol à la voûte, avec une précision impressionnante dans la restitution des gestes des artistes de la Préhistoire.",
+      "Guidé par la lueur d’une torche, laissez-vous transporter dans une expérience immersive et sensorielle : obscurité, fraîcheur, humidité, effluves souterraines…"
+    ],
+    "url": "https://lascaux-ii.fr/",
+    "images": []
+  },
+  {
+    "id": "lascaux-4",
+    "name": "Lascaux IV",
+    "category": "grotte",
+    "title": "Une expérience de visite inégalée",
+    "description": [
+      "Lascaux IV est le premier fac-similé représentant l’intégralité de la grotte originale. Le Centre International de l’Art Pariétal vous invite à rêver, à imaginer et à aller sur les traces de nos ancêtres.",
+      "Besoin d’inspiration ? De nombreuses visites adaptées pour tous vous feront découvrir la fabuleuse histoire de cette grotte unique au monde. Explorez l’époque de la préhistoire et profitez de l’intégration des nouvelles technologies qui enrichiront votre expérience de visite."
+    ],
+    "url": "https://lascaux.fr/",
+    "images": []
+  },
+  {
+    "id": "le-conquil",
+    "name": "Le Conquil",
+    "category": "troglodyte",
+    "title": "Un site chargé d’histoire, classé UNESCO",
+    "description": [
+      "À seulement 10 km de Lascaux, au bord de la Vézère, Le Conquil vous invite à un voyage hors du temps. Ce site troglodytique en Dordogne, creusé dans la falaise calcaire, est l’un des lieux les plus authentiques, les plus mystérieux et les plus insolites du Périgord Noir — occupé par l’homme depuis la Préhistoire jusqu’au Moyen Âge, gardant encore aujourd’hui des secrets enfouis dans la roche.",
+      "Falaises vertigineuses, abris sous roche, pigeonnier médiéval, grottes encore inexploitées et fouilles archéologiques en cours : chaque visite révèle une nouvelle facette de ce lieu chargé d’histoire au cœur de la vallée de la Vézère, classée au patrimoine mondial de l’UNESCO.",
+      "Un site incontournable pour une sortie en famille, une activité originale en Dordogne ou une escapade insolite en Périgord Noir."
+    ],
+    "url": "https://leconquil.fr/",
+    "images": []
+  }
+]

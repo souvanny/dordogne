@@ -1,0 +1,33 @@
+@if (site$ | async; as site) {
+  <article class="site">
+    <a class="back" routerLink="/"><span aria-hidden="true">&larr;</span> Tous les lieux</a>
+
+    <header class="site-head">
+      <span class="badge">{{ labels[site.category] }}</span>
+      <h1>{{ site.name }}</h1>
+      <p class="site-title">{{ site.title }}</p>
+    </header>
+
+    @if (site.images.length > 0) {
+      <div class="gallery">
+        @for (image of site.images; track image) {
+          <img [src]="image" [alt]="site.name" loading="lazy" />
+        }
+      </div>
+    }
+
+    <div class="body">
+      @for (paragraph of site.description; track paragraph) {
+        <p>{{ paragraph }}</p>
+      }
+    </div>
+
+    @if (site.url) {
+      <a class="external" [href]="site.url" target="_blank" rel="noopener">
+        Visiter le site officiel <span aria-hidden="true">&nearr;</span>
+      </a>
+    }
+  </article>
+} @else {
+  <p class="empty">Chargement…</p>
+}

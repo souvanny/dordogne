@@ -1,0 +1,26 @@
+<section class="hero">
+  <div class="hero-inner">
+    <h1>Le Périgord,<br />terre de trésors</h1>
+    <p>
+      Châteaux, grottes préhistoriques, sites troglodytiques et grands espaces
+      naturels : découvrez les lieux d'exception de la Dordogne.
+    </p>
+  </div>
+</section>
+
+<section class="sites">
+  <div class="section-head">
+    <h2>Les lieux &amp; monuments</h2>
+    <span class="rule" aria-hidden="true"></span>
+  </div>
+
+  @if (sites$ | async; as sites) {
+    <div class="grid">
+      @for (site of sites; track site.id) {
+        <app-site-card [site]="site" />
+      }
+    </div>
+  } @else {
+    <p class="empty">Chargement…</p>
+  }
+</section>

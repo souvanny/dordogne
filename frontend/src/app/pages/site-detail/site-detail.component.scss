@@ -1,0 +1,77 @@
+.site {
+  max-width: 46rem;
+  margin: 0 auto;
+  padding: 2rem 1.5rem 4rem;
+}
+
+.back {
+  display: inline-block;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--green-700);
+  margin-bottom: 2rem;
+}
+
+.back:hover {
+  color: var(--green-900);
+}
+
+.site-head {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin-bottom: 2rem;
+}
+
+.site-head .badge {
+  align-self: flex-start;
+}
+
+.site-head h1 {
+  font-size: clamp(2rem, 5vw, 2.75rem);
+}
+
+.site-title {
+  font-family: var(--serif);
+  font-size: 1.15rem;
+  color: var(--gold-600);
+}
+
+.gallery {
+  display: grid;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.gallery img {
+  width: 100%;
+  border-radius: 0.6rem;
+  border: 1px solid var(--green-200);
+  object-fit: cover;
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  gap: 1.1rem;
+  margin-bottom: 2rem;
+}
+
+.body p {
+  font-size: 1.02rem;
+  color: var(--ink);
+}
+
+.external {
+  display: inline-block;
+  font-weight: 600;
+  color: var(--green-50);
+  background: var(--green-700);
+  border-radius: 0.5rem;
+  padding: 0.8rem 1.3rem;
+  transition: background 0.2s ease;
+}
+
+.external:hover {
+  background: var(--green-800);
+}

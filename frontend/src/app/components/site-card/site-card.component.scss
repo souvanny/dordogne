@@ -1,0 +1,78 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  border: 1px solid var(--green-200);
+  border-radius: 0.6rem;
+  overflow: hidden;
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease,
+    border-color 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  border-color: var(--gold-300);
+  box-shadow: 0 12px 28px rgba(26, 56, 41, 0.12);
+}
+
+.card-media {
+  position: relative;
+  aspect-ratio: 16 / 10;
+  background: var(--green-100);
+  overflow: hidden;
+}
+
+.card-media img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.placeholder {
+  display: grid;
+  place-items: center;
+  width: 100%;
+  height: 100%;
+  font-family: var(--serif);
+  font-size: 3rem;
+  font-weight: 700;
+  color: var(--green-400);
+  background:
+    radial-gradient(circle at 20% 20%, rgba(76, 143, 99, 0.18), transparent 45%),
+    linear-gradient(135deg, var(--green-100), var(--green-50));
+}
+
+.card-badge {
+  position: absolute;
+  top: 0.75rem;
+  left: 0.75rem;
+  background: rgba(250, 247, 240, 0.92);
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 1.1rem 1.25rem 1.25rem;
+  flex: 1;
+}
+
+.card-name {
+  font-size: 1.15rem;
+}
+
+.card-title {
+  color: var(--ink-muted);
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+.card-link {
+  margin-top: auto;
+  padding-top: 0.6rem;
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: var(--green-700);
+}

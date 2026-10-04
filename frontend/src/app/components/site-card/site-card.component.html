@@ -1,0 +1,16 @@
+<a class="card" [routerLink]="['/site', site().id]">
+  <div class="card-media">
+    @if (site().images.length > 0) {
+      <img [src]="site().images[0]" [alt]="site().name" loading="lazy" />
+    } @else {
+      <span class="placeholder" aria-hidden="true">{{ site().name.charAt(0) }}</span>
+    }
+    <span class="badge card-badge">{{ categoryLabel }}</span>
+  </div>
+
+  <div class="card-body">
+    <h3 class="card-name">{{ site().name }}</h3>
+    <p class="card-title">{{ site().title }}</p>
+    <span class="card-link">Découvrir <span aria-hidden="true">&rarr;</span></span>
+  </div>
+</a>

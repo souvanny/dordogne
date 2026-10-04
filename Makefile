@@ -13,16 +13,23 @@ DOCKER_COMPOSE_PROD = docker compose --env-file=./.env -f ./$(COMPOSE_FILE_PROD)
 PHP_FPM = php
 
 ##################
+# Données (sites)
+##################
+
+data:
+	node scripts/build-data.mjs
+
+##################
 # Local
 ##################
 
-build:
+build: data
 	${DOCKER_COMPOSE} build
 
-up:
+up: data
 	${DOCKER_COMPOSE} up -d --remove-orphans
 
-rebuild:
+rebuild: data
 	${DOCKER_COMPOSE} up -d --build --force-recreate --remove-orphans
 
 down:
@@ -67,7 +74,7 @@ bash-front:
 # Production
 ##################
 
-prod-build:
+prod-build: data
 	${DOCKER_COMPOSE_PROD} build
 
 prod-up:

@@ -1,0 +1,16 @@
+{
+  "id": "chateau-castelnaud",
+  "name": "Château de Castelnaud",
+  "category": "chateau",
+  "title": "L’histoire d'un Château marquant",
+  "description": [
+    "Plongez dans plus de huit siècles d’histoire au Château de Castelnaud, l’un des plus célèbres châteaux forts de Dordogne. Des croisades contre les Albigeois aux guerres de Religion, de l’abandon au XIXe siècle à la restauration et à l’ouverture du musée de la guerre au Moyen Âge, chaque époque a marqué cette forteresse médiévale perchée au-dessus de la vallée de la Dordogne.",
+    "Aujourd’hui, la visite du château permet de découvrir l’époque médiévale et d’explorer l’évolution de ce site incontournable en Périgord Noir."
+  ],
+  "url": "https://castelnaud.com/",
+  "images": [
+    "img/Chateau-Castelnaud-©Boutry.webp",
+    "img/Chateau-Castelnaud-©Lachaud-scaled.webp",
+    "img/©-JM-Laugery-DJI_0040-scaled.webp"
+  ]
+}

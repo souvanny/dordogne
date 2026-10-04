@@ -1,0 +1,73 @@
+.hero {
+  background:
+    radial-gradient(circle at 80% 20%, rgba(76, 143, 99, 0.35), transparent 55%),
+    linear-gradient(160deg, var(--green-900), var(--green-700));
+  color: var(--green-50);
+  padding: 4.5rem 1.5rem;
+}
+
+.hero-inner {
+  max-width: 60rem;
+  margin: 0 auto;
+}
+
+.hero h1 {
+  font-size: clamp(2.2rem, 6vw, 3.5rem);
+  color: var(--cream);
+  margin-bottom: 1.25rem;
+}
+
+.hero p {
+  max-width: 40rem;
+  font-size: 1.05rem;
+  color: var(--green-100);
+}
+
+.sites {
+  max-width: 72rem;
+  margin: 0 auto;
+  padding: 3rem 1.5rem 4rem;
+}
+
+.section-head {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 2.5rem;
+  text-align: center;
+}
+
+.section-head h2 {
+  font-size: 1.8rem;
+}
+
+.rule {
+  position: relative;
+  width: 8rem;
+  height: 1px;
+  background: var(--gold-500);
+}
+
+.rule::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+  width: 0.5rem;
+  height: 0.5rem;
+  background: var(--gold-500);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(16rem, 1fr));
+  gap: 1.5rem;
+}
+
+@media (max-width: 560px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}

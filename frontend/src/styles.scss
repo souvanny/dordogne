@@ -1,1 +1,88 @@
-/* You can add global styles to this file, and also import other style files */
+:root {
+  --green-950: #10241a;
+  --green-900: #1a3829;
+  --green-800: #24513a;
+  --green-700: #2f6347;
+  --green-600: #3c7a55;
+  --green-500: #4c8f63;
+  --green-400: #7fb08c;
+  --green-200: #cfe3d3;
+  --green-100: #e6f0e8;
+  --green-50: #f2f8f3;
+
+  --gold-600: #a8862f;
+  --gold-500: #c19a3f;
+  --gold-300: #d9c188;
+
+  --cream: #faf7f0;
+  --parchment: #f4efe3;
+
+  --ink: #24312a;
+  --ink-muted: #5c6a60;
+
+  --serif: 'Cinzel', Georgia, 'Times New Roman', serif;
+  --sans: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: var(--sans);
+  color: var(--ink);
+  background: var(--cream);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--serif);
+  font-weight: 600;
+  color: var(--green-900);
+  line-height: 1.15;
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.badge {
+  display: inline-block;
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--gold-600);
+  background: rgba(193, 154, 63, 0.12);
+  border: 1px solid var(--gold-300);
+  border-radius: 999px;
+  padding: 0.3rem 0.85rem;
+}
+
+.empty {
+  color: var(--ink-muted);
+  text-align: center;
+  padding: 3rem 1rem;
+}
