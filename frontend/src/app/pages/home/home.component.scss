@@ -1,4 +1,6 @@
 .hero {
+  position: relative;
+  overflow: hidden;
   background:
     radial-gradient(circle at 80% 20%, rgba(76, 143, 99, 0.35), transparent 55%),
     linear-gradient(160deg, var(--green-900), var(--green-700));
@@ -6,7 +8,18 @@
   padding: 4.5rem 1.5rem;
 }
 
+.hero-tree {
+  position: absolute;
+  right: 2%;
+  bottom: -8%;
+  height: 115%;
+  width: auto;
+  opacity: 0.28;
+  pointer-events: none;
+}
+
 .hero-inner {
+  position: relative;
   max-width: 60rem;
   margin: 0 auto;
 }
@@ -144,6 +157,36 @@
 
 .section-head h2 {
   font-size: 1.8rem;
+}
+
+.category {
+  margin-bottom: 2.75rem;
+}
+
+.category:last-child {
+  margin-bottom: 0;
+}
+
+.category-head {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  margin-bottom: 1rem;
+}
+
+.category-icon {
+  width: 96px;
+  height: 96px;
+  object-fit: cover;
+  border-radius: 10px;
+  border: 1px solid var(--green-200);
+}
+
+.category-title {
+  font-family: var(--serif);
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--green-900);
 }
 
 .rule {

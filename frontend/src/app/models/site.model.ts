@@ -17,3 +17,10 @@ export const CATEGORY_LABELS: Record<SiteCategory, string> = {
   troglodyte: 'Sites troglodytiques',
   nature: 'Nature & loisirs',
 };
+
+export const CATEGORY_ICONS: Record<SiteCategory, string> = {
+  chateau: '/illustrations/chateau.svg',
+  grotte: '/illustrations/grotte.svg',
+  troglodyte: '/illustrations/troglodyte.svg',
+  nature: '/illustrations/nature.svg',
+};

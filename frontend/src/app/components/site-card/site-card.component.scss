@@ -44,13 +44,6 @@
     linear-gradient(135deg, var(--green-100), var(--green-50));
 }
 
-.card-badge {
-  position: absolute;
-  top: 0.75rem;
-  left: 0.75rem;
-  background: rgba(250, 247, 240, 0.92);
-}
-
 .card-body {
   display: flex;
   flex-direction: column;

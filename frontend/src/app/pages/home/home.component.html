@@ -1,4 +1,5 @@
 <section class="hero">
+  <img class="hero-tree" src="/illustrations/arbre.svg" alt="" aria-hidden="true" />
   <div class="hero-inner">
     <h1>Le Périgord,<br />terre de trésors</h1>
     <p>
@@ -31,12 +32,20 @@
     <span class="rule" aria-hidden="true"></span>
   </div>
 
-  @if (sites$ | async; as sites) {
-    <div class="grid">
-      @for (site of sites; track site.id) {
-        <app-site-card [site]="site" />
-      }
-    </div>
+  @if (sitesByCategory$ | async; as groups) {
+    @for (group of groups; track group.category) {
+      <section class="category">
+        <header class="category-head">
+          <img class="category-icon" [src]="group.icon" alt="" loading="lazy" />
+          <h3 class="category-title">{{ group.label }}</h3>
+        </header>
+        <div class="grid">
+          @for (site of group.sites; track site.id) {
+            <app-site-card [site]="site" />
+          }
+        </div>
+      </section>
+    }
   } @else {
     <p class="empty">Chargement…</p>
   }

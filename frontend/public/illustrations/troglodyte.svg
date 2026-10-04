@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 300" role="img" aria-label="Sites troglodytiques Dordogne">
+  <defs>
+    <linearGradient id="falaise" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#DCCFB8"/>
+      <stop offset="20%" stop-color="#CBB99A"/>
+      <stop offset="100%" stop-color="#A88E68"/>
+    </linearGradient>
+    <pattern id="roche" width="40" height="30" patternUnits="userSpaceOnUse">
+      <path d="M0 20 Q10 15 20 20 T40 20" stroke="#9A825F" stroke-width="0.6" fill="none" opacity="0.4"/>
+    </pattern>
+  </defs>
+
+  <!-- Ciel -->
+  <rect width="500" height="300" rx="24" fill="#E8F4FF"/>
+  <circle cx="420" cy="60" r="22" fill="#FFE08A" opacity="0.9"/>
+
+  <!-- Falaise principale -->
+  <path d="M0 70 Q80 55 160 65 T320 60 T500 75 L500 270 L0 270 Z" fill="url(#falaise)"/>
+  <path d="M0 70 Q80 55 160 65 T320 60 T500 75 L500 270 L0 270 Z" fill="url(#roche)"/>
+
+  <!-- Strates -->
+  <path d="M0 110 Q150 105 300 115 T500 110" stroke="#9A825F" stroke-width="0.8" fill="none" opacity="0.3" stroke-dasharray="8 6"/>
+  <path d="M0 155 Q120 150 250 160 T500 155" stroke="#9A825F" stroke-width="0.8" fill="none" opacity="0.3" stroke-dasharray="8 6"/>
+  <path d="M0 210 Q200 200 400 215 T500 210" stroke="#9A825F" stroke-width="0.8" fill="none" opacity="0.25"/>
+
+  <!-- Habitats troglo 1 - grande salle -->
+  <g>
+    <path d="M60 125 Q80 115 110 125 L110 175 Q80 178 60 175 Z" fill="#2C2218"/>
+    <path d="M60 125 Q80 115 110 125" fill="none" stroke="#5C4A32" stroke-width="2"/>
+    <!-- Porte -->
+    <path d="M72 175 L72 152 Q80 148 88 152 L88 175 Z" fill="#4A3520" stroke="#2C2218" stroke-width="1"/>
+    <circle cx="85" cy="162" r="1.5" fill="#C9A86A"/>
+    <!-- Fenêtre -->
+    <circle cx="98" cy="147" r="7" fill="#FFD78A" stroke="#2C2218" stroke-width="1.2"/>
+    <path d="M91 147 L105 147 M98 140 L98 154" stroke="#2C2218" stroke-width="1"/>
+  </g>
+
+  <!-- Habitat 2 -->
+  <g>
+    <ellipse cx="195" cy="145" rx="28" ry="18" fill="#1E1811"/>
+    <ellipse cx="195" cy="145" rx="28" ry="18" fill="none" stroke="#5C4A32" stroke-width="1.5"/>
+    <rect x="180" y="145" width="30" height="25" fill="#1E1811"/>
+    <rect x="183" y="152" width="10" height="18" rx="1" fill="#3D2B18" stroke="#5C4A32" stroke-width="0.8"/>
+    <rect x="197" y="150" width="12" height="10" rx="2" fill="#7AB8FF" stroke="#1E1811" stroke-width="1" opacity="0.9"/>
+    <rect x="197" y="150" width="12" height="10" rx="2" fill="none" stroke="#fff" stroke-width="0.5" opacity="0.6"/>
+  </g>
+
+  <!-- Habitat 3 - étage supérieur avec balcon bois -->
+  <g>
+    <path d="M280 105 Q305 92 330 105 L330 155 Q305 158 280 155 Z" fill="#231B13"/>
+    <path d="M275 155 L335 155 L332 162 L278 162 Z" fill="#8B6A42"/>
+    <line x1="278" y1="162" x2="278" y2="175" stroke="#8B6A42" stroke-width="1.5"/>
+    <line x1="332" y1="162" x2="332" y2="175" stroke="#8B6A42" stroke-width="1.5"/>
+    <!-- 2 petites fenêtres -->
+    <rect x="288" y="120" width="11" height="14" rx="5.5" fill="#FFD78A" stroke="#231B13" stroke-width="1"/>
+    <rect x="310" y="120" width="11" height="14" rx="5.5" fill="#FFD78A" stroke="#231B13" stroke-width="1"/>
+  </g>
+
+  <!-- Habitat 4 - grotte chapelle -->
+  <g>
+    <path d="M395 135 Q420 115 445 135 L445 190 Q420 193 395 190 Z" fill="#1C1711"/>
+    <path d="M412 125 L412 115 Q420 112 428 115 L428 125" fill="none" stroke="#5C4A32" stroke-width="1.5"/>
+    <circle cx="420" cy="112" r="2" fill="#5C4A32"/>
+    <path d="M408 190 L408 165 Q420 158 432 165 L432 190" fill="#4A2F18"/>
+  </g>
+
+  <!-- Végétation falaise -->
+  <g fill="#4A7A3A" opacity="0.9">
+    <path d="M30 70 Q35 55 40 70 Q38 78 30 70"/>
+    <path d="M155 65 Q162 48 170 65"/>
+    <path d="M310 60 Q318 42 325 60"/>
+    <path d="M460 75 Q468 58 475 75"/>
+  </g>
+
+  <!-- Sol / village bas -->
+  <rect x="0" y="255" width="500" height="45" rx="0" fill="#6FAE5A"/>
+  <g opacity="0.9">
+    <rect x="70" y="240" width="22" height="18" fill="#E8D5B5" stroke="#8B6A42" stroke-width="1"/>
+    <path d="M70 240 L81 230 L92 240" fill="#C04A2A"/>
+    <rect x="190" y="245" width="18" height="13" fill="#E8D5B5" stroke="#8B6A42" stroke-width="1"/>
+    <path d="M188 245 L199 235 L210 245" fill="#C04A2A"/>
+    <rect x="395" y="238" width="26" height="20" fill="#E8D5B5" stroke="#8B6A42" stroke-width="1"/>
+    <path d="M393 238 L408 226 L423 238" fill="#C04A2A"/>
+  </g>
+
+  <!-- Echelle / escalier taillé -->
+  <g stroke="#5C4A32" stroke-width="1" fill="none" opacity="0.6">
+    <path d="M130 175 L140 255"/>
+    <path d="M120 175 L130 255"/>
+    <line x1="122" y1="190" x2="132" y2="190"/>
+    <line x1="124" y1="205" x2="134" y2="205"/>
+    <line x1="126" y1="220" x2="136" y2="220"/>
+    <line x1="128" y1="235" x2="138" y2="235"/>
+  </g>
+
+  <!-- Texte optionnel -->
+  <!-- <text x="250" y="290" text-anchor="middle" font-family="serif" font-size="10" fill="#5C4A32" letter-spacing="1">SITES TROGLODYTIQUES</text> -->
+</svg>
