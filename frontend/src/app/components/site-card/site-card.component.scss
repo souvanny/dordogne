@@ -56,6 +56,15 @@
   font-size: 1.15rem;
 }
 
+.card-category {
+  margin-top: -0.3rem;
+  font-size: 0.68rem;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--ink-muted);
+}
+
 .card-title {
   color: var(--ink-muted);
   font-size: 0.9rem;
