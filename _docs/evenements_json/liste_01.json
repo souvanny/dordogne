@@ -1,0 +1,362 @@
+{
+  "meta": {
+    "sujet": "Sources exhaustives pour lister les événements en Dordogne (France)",
+    "departement": "Dordogne (24)",
+    "region": "Nouvelle-Aquitaine",
+    "derniere_mise_a_jour": "2026-10-04",
+    "note": "L'agenda local est extrêmement fragmenté. Aucune source unique ne centralise tout. Cette liste couvre les agrégateurs, les agendas spécialisés par thématique, les newsletters territoriales et les plateformes de brocantes/vide-greniers.",
+    "champs_disponibles_generalement": [
+      "nom_evenement",
+      "date",
+      "lieu",
+      "ville",
+      "code_postal",
+      "contact",
+      "lien"
+    ]
+  },
+  "sources": {
+    "agregateurs_et_applications": [
+      {
+        "nom": "Echo Périgord",
+        "type": "application mobile / agrégateur collaboratif",
+        "url": "https://echo-perigord.fr",
+        "couverture": "Toute la Dordogne",
+        "description": "Application gratuite créée par Robin Gonneau. Agrège les flux de données de sites touristiques. Plus de 2 800 événements recensés (randonnées, théâtre, brocantes, expositions, conférences). N'importe qui peut proposer un événement [citation:6].",
+        "donnees_fournies": {
+          "nom_evenement": true,
+          "date": true,
+          "lieu": true,
+          "ville": true,
+          "code_postal": "partiel",
+          "coordonnees_gps": false,
+          "contact": "variable",
+          "lien": true
+        },
+        "frequence_mise_a_jour": "régulière (flux automatiques + contributions)",
+        "recommandee": true,
+        "priorite": 1
+      },
+      {
+        "nom": "Perigord.com - Agenda général",
+        "type": "site web / agenda",
+        "url": "https://www.perigord.com/agenda/",
+        "couverture": "Toute la Dordogne",
+        "description": "Agenda complet : concerts, expositions, festivals, spectacles, lotos, braderies, vide-greniers, brocantes, marchés. Toutes les idées de sorties en famille ou entre amis [citation:10].",
+        "donnees_fournies": {
+          "nom_evenement": true,
+          "date": true,
+          "lieu": true,
+          "ville": true,
+          "code_postal": "partiel",
+          "coordonnees_gps": false,
+          "contact": "variable",
+          "lien": true
+        },
+        "frequence_mise_a_jour": "régulière",
+        "recommandee": true,
+        "priorite": 1
+      }
+    ],
+    "agendas_thematiques": [
+      {
+        "nom": "Perigord.com - Manifestations Sportives",
+        "type": "agenda spécialisé",
+        "url": "https://www.perigord.com/de/agenda-manifestations-sportives/",
+        "couverture": "Toute la Dordogne",
+        "description": "Agenda dédié au sport : randonnées, courses à pied, cyclisme, raids sportifs, soirées Zumba, marche nordique, rugby, football, concours de pétanque, tournois de tennis, trails [citation:5].",
+        "donnees_fournies": {
+          "nom_evenement": true,
+          "date": true,
+          "lieu": true,
+          "ville": true,
+          "code_postal": "partiel",
+          "coordonnees_gps": false,
+          "contact": "partiel",
+          "lien": true
+        },
+        "frequence_mise_a_jour": "régulière",
+        "recommandee": true,
+        "priorite": 2
+      },
+      {
+        "nom": "Perigord.com - Manifestations Culturelles",
+        "type": "agenda spécialisé",
+        "url": "https://www.perigord.com/agenda-manifestations-culturelles/",
+        "couverture": "Toute la Dordogne",
+        "description": "Agenda culturel : concerts, expositions, conférences, festivals, spectacles, théâtre. Plus de 449 événements référencés [citation:14].",
+        "donnees_fournies": {
+          "nom_evenement": true,
+          "date": true,
+          "lieu": true,
+          "ville": true,
+          "code_postal": "partiel",
+          "coordonnees_gps": false,
+          "contact": "variable",
+          "lien": true
+        },
+        "frequence_mise_a_jour": "régulière",
+        "recommandee": true,
+        "priorite": 2
+      },
+      {
+        "nom": "JDS.fr - Brocantes et vide-greniers Dordogne",
+        "type": "agenda spécialisé",
+        "url": "https://www.jds.fr/dordogne/agenda/marches-aux-puces-393_B",
+        "couverture": "Toute la Dordogne",
+        "description": "Calendrier des brocantes, vide-greniers et marchés aux puces. Liste détaillée par date avec lieu et description [citation:3].",
+        "donnees_fournies": {
+          "nom_evenement": true,
+          "date": true,
+          "lieu": true,
+          "ville": true,
+          "code_postal": "partiel",
+          "coordonnees_gps": false,
+          "contact": "variable",
+          "lien": true
+        },
+        "frequence_mise_a_jour": "régulière",
+        "recommandee": true,
+        "priorite": 2
+      },
+      {
+        "nom": "JDS.fr - Marchés et braderies Dordogne",
+        "type": "agenda spécialisé",
+        "url": "https://www.jds.fr/dordogne/agenda/braderie-3_B",
+        "couverture": "Toute la Dordogne",
+        "description": "Calendrier des marchés traditionnels et braderies. Marchés hebdomadaires et événements ponctuels [citation:18].",
+        "donnees_fournies": {
+          "nom_evenement": true,
+          "date": true,
+          "lieu": true,
+          "ville": true,
+          "code_postal": "partiel",
+          "coordonnees_gps": false,
+          "contact": "variable",
+          "lien": true
+        },
+        "frequence_mise_a_jour": "régulière",
+        "recommandee": true,
+        "priorite": 2
+      },
+      {
+        "nom": "Brocabrac.fr - Vide-greniers Dordogne",
+        "type": "plateforme spécialisée",
+        "url": "https://brocabrac.fr/24/vide-grenier/",
+        "couverture": "Toute la Dordogne",
+        "description": "Plateforme nationale spécialisée dans les vide-greniers et brocantes. Liste par mois avec adresse précise et code postal [citation:17].",
+        "donnees_fournies": {
+          "nom_evenement": true,
+          "date": true,
+          "lieu": true,
+          "ville": true,
+          "code_postal": true,
+          "coordonnees_gps": false,
+          "contact": "variable",
+          "lien": false
+        },
+        "frequence_mise_a_jour": "régulière",
+        "recommandee": true,
+        "priorite": 2
+      },
+      {
+        "nom": "Marchés des Producteurs de Pays - Chambre d'Agriculture Dordogne",
+        "type": "agenda spécialisé",
+        "url": "https://creuse.chambres-agriculture.fr/actualites-1/actualite/les-marches-de-producteurs-de-pays-vont-rythmer-votre-ete-en-dordogne",
+        "couverture": "Toute la Dordogne (35 sites)",
+        "description": "35 sites en Dordogne accueillent les producteurs en matinée ou en soirée. 200 producteurs participants. Marchés d'approvisionnement et marchés festifs [citation:4].",
+        "donnees_fournies": {
+          "nom_evenement": true,
+          "date": true,
+          "lieu": true,
+          "ville": true,
+          "code_postal": "partiel",
+          "coordonnees_gps": false,
+          "contact": "partiel",
+          "lien": false
+        },
+        "frequence_mise_a_jour": "saisonnière (été)",
+        "recommandee": true,
+        "priorite": 2
+      },
+      {
+        "nom": "Bienvenue à la Ferme - Marchés des Producteurs",
+        "type": "plateforme spécialisée",
+        "url": "https://www.bienvenue-a-la-ferme.com/nouvelle-aquitaine/charente/verteuil-sur-charente/marche/verteuil/1411",
+        "couverture": "Dordogne et Nouvelle-Aquitaine",
+        "description": "Plateforme des marchés fermiers et Marchés des Producteurs de Pays. Exemple : Saint-Pardoux-la-Rivière, Place Henri Brives, 24470 [citation:9].",
+        "donnees_fournies": {
+          "nom_evenement": true,
+          "date": true,
+          "lieu": true,
+          "ville": true,
+          "code_postal": true,
+          "coordonnees_gps": false,
+          "contact": true,
+          "lien": true
+        },
+        "frequence_mise_a_jour": "régulière",
+        "recommandee": true,
+        "priorite": 2
+      }
+    ],
+    "offices_de_tourisme_et_newsletters_territoriales": [
+      {
+        "nom": "Périgord Noir Vallée Dordogne - Newsletter hebdomadaire",
+        "type": "newsletter PDF hebdomadaire",
+        "url": "https://www.perigordnoir-valleedordogne.com",
+        "couverture": "Domme, Belvès, St-Cyprien, Villefranche, Daglan, Siorac",
+        "description": "Newsletter PDF publiée chaque semaine avec le programme détaillé des fêtes et manifestations. Exemples : Nuit des chauves-souris, concerts, concours de pétanque, repas champêtres, brocantes, marchés gourmands, feux d'artifice [citation:1][citation:2][citation:7].",
+        "donnees_fournies": {
+          "nom_evenement": true,
+          "date": true,
+          "lieu": true,
+          "ville": true,
+          "code_postal": true,
+          "coordonnees_gps": false,
+          "contact": true,
+          "lien": false
+        },
+        "frequence_mise_a_jour": "hebdomadaire",
+        "recommandee": true,
+        "priorite": 1
+      },
+      {
+        "nom": "Lascaux Dordogne - Agenda PDF",
+        "type": "agenda PDF structuré",
+        "url": "https://www.lascaux-dordogne.com/notre-agenda",
+        "couverture": "Périgord Noir (Sarlat, Vallée Dordogne, Vallée Vézère)",
+        "description": "Agenda au format tableau très structuré : Nom, Adresse, Code postal/Ville, Contact, Périodes. Idéal pour extraction de données [citation:8][citation:11][citation:12].",
+        "donnees_fournies": {
+          "nom_evenement": true,
+          "date": true,
+          "lieu": true,
+          "ville": true,
+          "code_postal": true,
+          "coordonnees_gps": false,
+          "contact": true,
+          "lien": false
+        },
+        "frequence_mise_a_jour": "régulière",
+        "recommandee": true,
+        "priorite": 1
+      },
+      {
+        "nom": "Perigord Dronne Belle - Agenda PDF",
+        "type": "agenda PDF",
+        "url": "https://perigord-dronne-belle.fr",
+        "couverture": "Périgord Dronne Belle (Brantôme, Bourdeilles, Mareuil, Villars)",
+        "description": "Agenda des manifestations annuelles et saisonnières : marchés hebdomadaires, expositions, fêtes patronales, musicales d'été. Format structuré avec contact [citation:15].",
+        "donnees_fournies": {
+          "nom_evenement": true,
+          "date": true,
+          "lieu": true,
+          "ville": true,
+          "code_postal": true,
+          "coordonnees_gps": false,
+          "contact": true,
+          "lien": false
+        },
+        "frequence_mise_a_jour": "régulière",
+        "recommandee": true,
+        "priorite": 2
+      },
+      {
+        "nom": "Dordogne Périgord Tourisme (Comité départemental)",
+        "type": "site web institutionnel",
+        "url": "https://www.dordogne-perigord-tourisme.fr",
+        "couverture": "Toute la Dordogne",
+        "description": "Site officiel du comité départemental du tourisme. Référence les événements gourmands et culturels à l'échelle du département.",
+        "donnees_fournies": {
+          "nom_evenement": true,
+          "date": true,
+          "lieu": true,
+          "ville": true,
+          "code_postal": "partiel",
+          "coordonnees_gps": false,
+          "contact": "variable",
+          "lien": true
+        },
+        "frequence_mise_a_jour": "régulière",
+        "recommandee": true,
+        "priorite": 2
+      }
+    ],
+    "presse_locale": [
+      {
+        "nom": "Sud Ouest - Dordogne",
+        "type": "quotidien régional",
+        "url": "https://www.sudouest.fr/dordogne/",
+        "couverture": "Toute la Dordogne",
+        "description": "Quotidien régional avec rubrique locale. Couvre les marchés des producteurs, événements sportifs, culturels et fêtes locales. Exemple : article sur les marchés des producteurs de Creysse [citation:13].",
+        "donnees_fournies": {
+          "nom_evenement": true,
+          "date": true,
+          "lieu": true,
+          "ville": true,
+          "code_postal": "variable",
+          "coordonnees_gps": false,
+          "contact": "variable",
+          "lien": true
+        },
+        "frequence_mise_a_jour": "quotidienne",
+        "recommandee": true,
+        "priorite": 2
+      }
+    ]
+  },
+  "grands_rendez_vous_annuels": [
+    {
+      "nom": "Châteaux en Fête",
+      "periode": "Printemps (11 avril - 3 mai 2026)",
+      "lieu": "112 châteaux, manoirs et demeures en Dordogne",
+      "description": "6ème édition. Visites costumées, dîners aux chandelles, spectacles, concerts, pièces de théâtre, animations familiales, expériences nocturnes [citation:20].",
+      "source": "Dordogne Périgord Tourisme"
+    },
+    {
+      "nom": "Festival des Jeux du Théâtre de Sarlat",
+      "periode": "Juillet-août",
+      "lieu": "Sarlat-la-Canéda",
+      "description": "Festival de théâtre de rue."
+    },
+    {
+      "nom": "Fête du Couteau de Nontron",
+      "periode": "Début août",
+      "lieu": "Nontron",
+      "description": "Fête traditionnelle autour de la coutellerie."
+    },
+    {
+      "nom": "Festival du Film de Sarlat",
+      "periode": "Novembre",
+      "lieu": "Sarlat-la-Canéda",
+      "description": "Festival de cinéma."
+    },
+    {
+      "nom": "Epou'fest - Fête des Épouvantails de Meyrals",
+      "periode": "Juillet (24-26 juillet 2026)",
+      "lieu": "Meyrals (24220)",
+      "description": "27ème édition. Soirée d'inauguration, animations tout le week-end, entrée gratuite [citation:2]."
+    },
+    {
+      "nom": "Foire Saint-Martin de Périgueux",
+      "periode": "Dernier week-end de juin",
+      "lieu": "Place Plumancy et alentours, Périgueux",
+      "description": "500 exposants. Incontournable pour les chineurs [citation:17]."
+    },
+    {
+      "nom": "Comice Agricole de Lanouaille",
+      "periode": "18 octobre 2026",
+      "lieu": "Lanouaille",
+      "description": "Concours d'élevage bovin limousin, exposition d'animaux, banquet, vide-greniers, folklore, foire aux châtaignes, noix, pommes, vin [citation:19]."
+    }
+  ],
+  "recommandations": {
+    "strategie": "Pour une veille complète : 1) Echo Périgord pour la vue d'ensemble, 2) Les newsletters PDF des offices de tourisme pour les données structurées, 3) Brocabrac et JDS pour les brocantes/vide-greniers, 4) Perigord.com pour le sport et la culture.",
+    "limitation_principale": "Aucune source ne fournit systématiquement les coordonnées GPS (latitude/longitude). Les codes postaux sont le meilleur identifiant géographique disponible.",
+    "pistes_amelioration": [
+      "Géocoder les adresses avec OpenStreetMap/Nominatim à partir des codes postaux et noms de villes.",
+      "Consulter les agendas des offices de tourisme par zone : Bergerac, Périgueux, Nontron, Sarlat.",
+      "S'abonner aux newsletters hebdomadaires de Périgord Noir Vallée Dordogne pour les mises à jour fréquentes."
+    ]
+  }
+}

@@ -1,0 +1,56 @@
+@if (evenements$ | async; as data) {
+  <section class="agenda">
+    <header class="agenda-head">
+      <h1>Agenda du Périgord</h1>
+      <p>Fêtes, festivals, marchés et grands rendez-vous en Dordogne.</p>
+    </header>
+
+    @if (data.aVenir.length > 0) {
+      <h2 class="group-title">À venir</h2>
+      <ul class="events">
+        @for (event of data.aVenir; track event.id) {
+          <li class="event">
+            <div class="event-date">
+              <span class="event-date-label">{{ formatDate(event) }}</span>
+            </div>
+            <div class="event-body">
+              <h3>{{ event.nom }}</h3>
+              @if (lieu(event)) {
+                <p class="event-lieu">{{ lieu(event) }}</p>
+              }
+              @if (event.description) {
+                <p class="event-desc">{{ event.description }}</p>
+              }
+            </div>
+          </li>
+        }
+      </ul>
+    } @else {
+      <p class="empty">Aucun événement à venir pour le moment.</p>
+    }
+
+    @if (data.autres.length > 0) {
+      <h2 class="group-title">Autres rendez-vous</h2>
+      <ul class="events">
+        @for (event of data.autres; track event.id) {
+          <li class="event event--muted">
+            <div class="event-date">
+              <span class="event-date-label">{{ formatDate(event) }}</span>
+            </div>
+            <div class="event-body">
+              <h3>{{ event.nom }}</h3>
+              @if (lieu(event)) {
+                <p class="event-lieu">{{ lieu(event) }}</p>
+              }
+              @if (event.description) {
+                <p class="event-desc">{{ event.description }}</p>
+              }
+            </div>
+          </li>
+        }
+      </ul>
+    }
+  </section>
+} @else {
+  <p class="empty">Chargement…</p>
+}

@@ -1,0 +1,200 @@
+[
+  {
+    "id": "chateaux-en-fete",
+    "nom": "Châteaux en Fête",
+    "date": "Printemps (11 avril - 3 mai 2026)",
+    "dateDebut": "2026-05-03",
+    "dateFin": "2026-05-03",
+    "lieu": "112 châteaux, manoirs et demeures en Dordogne",
+    "ville": "",
+    "description": "6ème édition. Visites costumées, dîners aux chandelles, spectacles, concerts, pièces de théâtre, animations familiales, expériences nocturnes.",
+    "categorie": "rendez-vous"
+  },
+  {
+    "id": "epou-fest-fete-des-epouvantails-de-meyrals",
+    "nom": "Epou'fest - Fête des Épouvantails de Meyrals",
+    "date": "Juillet (24-26 juillet 2026)",
+    "dateDebut": "2026-07-24",
+    "dateFin": "2026-07-26",
+    "lieu": "Meyrals (24220)",
+    "ville": "",
+    "description": "27ème édition. Soirée d'inauguration, animations tout le week-end, entrée gratuite.",
+    "categorie": "rendez-vous"
+  },
+  {
+    "id": "barbara-par-pietragalla",
+    "nom": "Barbara par Pietragalla",
+    "date": "03/10/2026",
+    "dateDebut": "2026-10-03",
+    "dateFin": null,
+    "lieu": "Centre Événementiel l'Espace Étincelle",
+    "ville": "Bergerac",
+    "description": "Spectacle de Marie-Claude Pietragalla mêlant danse, chant et théâtre.",
+    "categorie": "agenda"
+  },
+  {
+    "id": "super-loto",
+    "nom": "Super Loto",
+    "date": "03/10/2026",
+    "dateDebut": "2026-10-03",
+    "dateFin": null,
+    "lieu": "Salle des fêtes de Mouzens",
+    "ville": "Coux-et-Bigaroque-Mouzens",
+    "description": "Buvette et petite restauration sur place.",
+    "categorie": "agenda"
+  },
+  {
+    "id": "marche-rose-2026",
+    "nom": "Marche Rose 2026",
+    "date": "04/10/2026",
+    "dateDebut": "2026-10-04",
+    "dateFin": null,
+    "lieu": "Camping municipal",
+    "ville": "Cénac-et-Saint-Julien",
+    "description": "Contre le cancer du sein. Départ 10 km à 9h30 et 5 km à 10h00.",
+    "categorie": "agenda"
+  },
+  {
+    "id": "vide-grenier",
+    "nom": "Vide-grenier",
+    "date": "04/10/2026",
+    "dateDebut": "2026-10-04",
+    "dateFin": null,
+    "lieu": "Salle du Pradal",
+    "ville": "Domme",
+    "description": "De 8h00 à 18h00.",
+    "categorie": "agenda"
+  },
+  {
+    "id": "exposition-jose-munoz",
+    "nom": "Exposition José Muñoz",
+    "date": "16/10/2026 au 01/11/2026",
+    "dateDebut": "2026-10-16",
+    "dateFin": "2026-11-01",
+    "lieu": "Périgueux",
+    "ville": "",
+    "description": "Invité d'honneur du festival BD en Périgord. Considéré comme l'un des grands maîtres de la bande dessinée.",
+    "categorie": "agenda"
+  },
+  {
+    "id": "lynda-lemay-jean-felix-lalanne",
+    "nom": "Lynda Lemay & Jean-Félix Lalanne",
+    "date": "16/10/2026",
+    "dateDebut": "2026-10-16",
+    "dateFin": null,
+    "lieu": "Centre Événementiel l'Espace Étincelle",
+    "ville": "Bergerac",
+    "description": "Concert exceptionnel « Autour de leur Guitare ».",
+    "categorie": "agenda"
+  },
+  {
+    "id": "comice-agricole-de-lanouaille",
+    "nom": "Comice Agricole de Lanouaille",
+    "date": "18 octobre 2026",
+    "dateDebut": "2026-10-18",
+    "dateFin": "2026-10-18",
+    "lieu": "Lanouaille",
+    "ville": "",
+    "description": "Concours d'élevage bovin limousin, exposition d'animaux, banquet, vide-greniers, folklore, foire aux châtaignes, noix, pommes, vin.",
+    "categorie": "rendez-vous"
+  },
+  {
+    "id": "bastides-en-fete",
+    "nom": "Bastides en Fête",
+    "date": "24-25 octobre 2026",
+    "dateDebut": "2026-10-24",
+    "dateFin": "2026-10-25",
+    "lieu": "Vergt",
+    "ville": "",
+    "description": "Exposition sur les métiers du Moyen Âge, animations dans la bastide.",
+    "categorie": "rendez-vous"
+  },
+  {
+    "id": "la-nuit-etincelle-petit-biscuit-klingande",
+    "nom": "La Nuit Étincelle - Petit Biscuit & Klingande",
+    "date": "31/10/2026",
+    "dateDebut": "2026-10-31",
+    "dateFin": null,
+    "lieu": "Centre Événementiel l'Espace Étincelle",
+    "ville": "Bergerac",
+    "description": "Soirée électro.",
+    "categorie": "agenda"
+  },
+  {
+    "id": "festival-des-jeux-du-theatre-de-sarlat",
+    "nom": "Festival des Jeux du Théâtre de Sarlat",
+    "date": "Juillet-août",
+    "dateDebut": null,
+    "dateFin": null,
+    "lieu": "Sarlat-la-Canéda",
+    "ville": "",
+    "description": "Festival de théâtre de rue.",
+    "categorie": "rendez-vous"
+  },
+  {
+    "id": "festival-du-film-de-sarlat",
+    "nom": "Festival du Film de Sarlat",
+    "date": "Novembre",
+    "dateDebut": null,
+    "dateFin": null,
+    "lieu": "Sarlat-la-Canéda",
+    "ville": "",
+    "description": "Festival de cinéma.",
+    "categorie": "rendez-vous"
+  },
+  {
+    "id": "festival-du-perigord-pourpre",
+    "nom": "Festival du Périgord Pourpre",
+    "date": "1er au 14 août",
+    "dateDebut": null,
+    "dateFin": null,
+    "lieu": "Château de Biron",
+    "ville": "",
+    "description": "Festival de musique classique et jazz. Hommage à Michel Portal, La Bohème de Puccini, flamenco, récitals.",
+    "categorie": "rendez-vous"
+  },
+  {
+    "id": "festival-jazz-pourpre",
+    "nom": "Festival Jazz Pourpre",
+    "date": "Variable (printemps/été)",
+    "dateDebut": null,
+    "dateFin": null,
+    "lieu": "Bergerac et Pays de Bergerac",
+    "ville": "",
+    "description": "Concerts pédagogiques, village du festival, artistes internationaux (Ladyva, Yacouba trio, Akoda).",
+    "categorie": "rendez-vous"
+  },
+  {
+    "id": "fete-du-couteau-de-nontron",
+    "nom": "Fête du Couteau de Nontron",
+    "date": "Début août",
+    "dateDebut": null,
+    "dateFin": null,
+    "lieu": "Nontron",
+    "ville": "",
+    "description": "Fête traditionnelle autour de la coutellerie.",
+    "categorie": "rendez-vous"
+  },
+  {
+    "id": "foire-saint-martin-de-perigueux",
+    "nom": "Foire Saint-Martin de Périgueux",
+    "date": "Dernier week-end de juin",
+    "dateDebut": null,
+    "dateFin": null,
+    "lieu": "Place Plumancy et alentours, Périgueux",
+    "ville": "",
+    "description": "500 exposants. Incontournable pour les chineurs.",
+    "categorie": "rendez-vous"
+  },
+  {
+    "id": "ringueta-fete-des-jeux-traditionnels",
+    "nom": "Ringueta - Fête des Jeux Traditionnels",
+    "date": "Variable",
+    "dateDebut": null,
+    "dateFin": null,
+    "lieu": "Dordogne",
+    "ville": "",
+    "description": "Fête officielle des jeux traditionnels, référencée par Dordogne-Périgord Tourisme.",
+    "categorie": "rendez-vous"
+  }
+]

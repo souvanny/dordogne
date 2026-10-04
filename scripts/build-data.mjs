@@ -23,7 +23,7 @@ async function main() {
   const entries = await readdir(docsDir, { withFileTypes: true });
   const folders = entries.filter((d) => d.isDirectory());
 
-  await rm(outDir, { recursive: true, force: true });
+  await rm(imagesOutDir, { recursive: true, force: true });
   await mkdir(imagesOutDir, { recursive: true });
 
   const sites = [];

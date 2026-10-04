@@ -44,6 +44,25 @@
   letter-spacing: 0.04em;
 }
 
+.site-nav {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.site-nav a {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--green-700);
+  padding: 0.4rem 0.85rem;
+  border-radius: 0.5rem;
+}
+
+.site-nav a:hover,
+.site-nav a.active {
+  background: var(--green-100);
+  color: var(--green-900);
+}
+
 .site-main {
   flex: 1;
 }

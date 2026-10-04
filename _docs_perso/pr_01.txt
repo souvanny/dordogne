@@ -10,6 +10,16 @@ Il sera simple pour le moment simple avec style épuré.
 Prévoir le fait que l'on va ajouter petit à petit ajouter des dossiers dans _docs/documents_01.
 Pas base de données pour l'instant, mais convertir ce dossier en dossier plus structurée avec du json.
 
+===
+
+Prendre le dossier _docs/evenements_json
+
+En faire une page d'évènements.
+Et sur la home, un badge, un encart qui montre le nombre d'évènement à venir, un endroit cliquable pour amener vers les évènements à venir.
+
+Le dossier _docs/evenements_json est amené à évoluer ou changer.
+
+
 
 
 

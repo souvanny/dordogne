@@ -78,6 +78,21 @@ make data      # régénère frontend/public/data depuis _docs/documents_01
 
 Catégories disponibles : `chateau`, `grotte`, `troglodyte`, `nature`.
 
+## Les événements (agenda)
+
+L'agenda est alimenté par les fichiers JSON du dossier `_docs/evenements_json/`
+(ce dossier est amené à évoluer). Le script `scripts/build-events.mjs` les lit,
+normalise les événements (nom, date/période, lieu, ville, description) et génère
+`frontend/public/data/evenements.json`.
+
+```bash
+make data   # régénère à la fois les lieux et les événements
+```
+
+La page `/evenements` affiche les événements « à venir » (date de fin >=
+aujourd'hui) puis les autres rendez-vous. Le badge de la home compte les
+événements à venir.
+
 ## Structure
 
 ```
@@ -88,8 +103,9 @@ dordogne/
 │   ├── php/                # PHP-FPM + Composer
 │   └── node/               # Dockerfile dev Angular
 ├── nginx/                  # Config Nginx de l'API
-├── scripts/                # Scripts (build-data.mjs)
+├── scripts/                # Scripts (build-data.mjs, build-events.mjs)
 ├── _docs/documents_01/     # Contenu des lieux (JSON + images)
+├── _docs/evenements_json/  # Données brutes des événements (JSON)
 ├── docker-compose.yml
 ├── .env                    # Variables (ports, DB, secrets)
 └── Makefile

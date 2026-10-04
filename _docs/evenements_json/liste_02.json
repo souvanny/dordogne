@@ -1,0 +1,314 @@
+{
+  "meta": {
+    "sujet": "Sources exhaustives pour lister les événements en Dordogne (France)",
+    "departement": "Dordogne (24)",
+    "region": "Nouvelle-Aquitaine",
+    "derniere_mise_a_jour": "2026-10-04",
+    "note": "Liste enrichie avec des sources supplémentaires issues de recherches complémentaires. Les mairies et offices de tourisme territoriaux publient des agendas très détaillés et régulièrement mis à jour.",
+    "champs_disponibles_generalement": [
+      "nom_evenement",
+      "date",
+      "lieu",
+      "ville",
+      "code_postal",
+      "contact",
+      "lien"
+    ]
+  },
+  "sources": {
+    "agregateurs_et_applications": [
+      {
+        "nom": "Echo Périgord",
+        "type": "application mobile / agrégateur collaboratif",
+        "url": "https://echo-perigord.fr",
+        "couverture": "Toute la Dordogne",
+        "description": "Application gratuite. Agrège les flux de données de sites touristiques. Plus de 2 800 événements recensés.",
+        "frequence_mise_a_jour": "régulière",
+        "recommandee": true,
+        "priorite": 1
+      },
+      {
+        "nom": "Perigord.com - Agenda général",
+        "type": "site web / agenda",
+        "url": "https://www.perigord.com/agenda/",
+        "couverture": "Toute la Dordogne",
+        "description": "Agenda complet : concerts, expositions, festivals, lotos, braderies, vide-greniers, brocantes, marchés.",
+        "frequence_mise_a_jour": "régulière",
+        "recommandee": true,
+        "priorite": 1
+      }
+    ],
+    "agendas_thematiques": [
+      {
+        "nom": "Perigord.com - Manifestations Sportives",
+        "url": "https://www.perigord.com/de/agenda-manifestations-sportives/",
+        "couverture": "Toute la Dordogne"
+      },
+      {
+        "nom": "Perigord.com - Manifestations Culturelles",
+        "url": "https://www.perigord.com/agenda-manifestations-culturelles/",
+        "couverture": "Toute la Dordogne"
+      },
+      {
+        "nom": "JDS.fr - Brocantes et vide-greniers Dordogne",
+        "url": "https://www.jds.fr/dordogne/agenda/marches-aux-puces-393_B",
+        "couverture": "Toute la Dordogne"
+      },
+      {
+        "nom": "Brocabrac.fr - Vide-greniers Dordogne",
+        "url": "https://brocabrac.fr/24/vide-grenier/",
+        "couverture": "Toute la Dordogne"
+      },
+      {
+        "nom": "Bienvenue à la Ferme - Marchés des Producteurs",
+        "url": "https://www.bienvenue-a-la-ferme.com/nouvelle-aquitaine/",
+        "couverture": "Dordogne et Nouvelle-Aquitaine"
+      }
+    ],
+    "offices_de_tourisme_et_newsletters_territoriales": [
+      {
+        "nom": "Périgord Noir Vallée Dordogne - Newsletter hebdomadaire",
+        "type": "newsletter PDF hebdomadaire",
+        "url": "https://www.perigordnoir-valleedordogne.com",
+        "couverture": "Domme, Belvès, St-Cyprien, Villefranche, Daglan, Siorac",
+        "description": "Newsletter PDF publiée chaque semaine avec programme détaillé. Exemples : Epou'fest à Meyrals, marchés gourmands, feux d'artifice, brocantes, concerts [citation:1][citation:16].",
+        "donnees_fournies": {
+          "nom_evenement": true,
+          "date": true,
+          "lieu": true,
+          "ville": true,
+          "code_postal": true,
+          "coordonnees_gps": false,
+          "contact": true,
+          "lien": false
+        },
+        "frequence_mise_a_jour": "hebdomadaire",
+        "recommandee": true,
+        "priorite": 1
+      },
+      {
+        "nom": "Lascaux Dordogne - Agenda PDF",
+        "type": "agenda PDF structuré",
+        "url": "https://www.lascaux-dordogne.com/notre-agenda",
+        "couverture": "Périgord Noir (Sarlat, Vallée Dordogne, Vallée Vézère)",
+        "description": "Agenda au format tableau très structuré : Nom, Adresse, Code postal/Ville, Contact, Périodes. Idéal pour extraction de données [citation:4][citation:6].",
+        "donnees_fournies": {
+          "nom_evenement": true,
+          "date": true,
+          "lieu": true,
+          "ville": true,
+          "code_postal": true,
+          "coordonnees_gps": false,
+          "contact": true,
+          "lien": true
+        },
+        "frequence_mise_a_jour": "régulière",
+        "recommandee": true,
+        "priorite": 1
+      },
+      {
+        "nom": "Office de Tourisme du Grand Périgueux",
+        "type": "site web / blog agenda",
+        "url": "https://www.tourisme-grandperigueux.fr",
+        "couverture": "Grand Périgueux (Périgueux, Vergt, Sorges, Niversac)",
+        "description": "Programmation automne-hiver détaillée : visites patrimoniales, ateliers, expositions, événements famille. Guide saisonnier disponible en ligne [citation:8]. Également présent sur destination-perigueux.fr avec un agenda structuré en tableau [citation:13][citation:17].",
+        "donnees_fournies": {
+          "nom_evenement": true,
+          "date": true,
+          "lieu": true,
+          "ville": true,
+          "code_postal": true,
+          "coordonnees_gps": false,
+          "contact": true,
+          "lien": true
+        },
+        "frequence_mise_a_jour": "saisonnière (guide Automne-Hiver et Printemps-Été)",
+        "recommandee": true,
+        "priorite": 1
+      },
+      {
+        "nom": "Pays de Bergerac Tourisme - Calendrier des animations",
+        "type": "site web / agenda",
+        "url": "https://www.pays-bergerac-tourisme.com/fr/agenda/calendrier-des-animations",
+        "couverture": "Pays de Bergerac (Bergerac, Issigeac, Eymet, Lalinde, Biron)",
+        "description": "Agenda très complet : vides greniers, concerts, théâtre, fêtes de village, festivals, marchés nocturnes, randos, expositions, conférences. 895 résultats référencés [citation:18]. Également sur bergerac.fr pour les événements municipaux [citation:3][citation:10].",
+        "donnees_fournies": {
+          "nom_evenement": true,
+          "date": true,
+          "lieu": true,
+          "ville": true,
+          "code_postal": "partiel",
+          "coordonnees_gps": false,
+          "contact": "variable",
+          "lien": true
+        },
+        "frequence_mise_a_jour": "régulière",
+        "recommandee": true,
+        "priorite": 1
+      },
+      {
+        "nom": "Perigord Dronne Belle - Agenda PDF",
+        "type": "agenda PDF",
+        "url": "https://perigord-dronne-belle.fr",
+        "couverture": "Périgord Dronne Belle (Brantôme, Bourdeilles, Mareuil, Villars)",
+        "description": "Agenda des manifestations annuelles et saisonnières.",
+        "frequence_mise_a_jour": "régulière",
+        "recommandee": true,
+        "priorite": 2
+      }
+    ],
+    "agendas_municipaux": [
+      {
+        "nom": "Ville de Périgueux - Agenda officiel",
+        "type": "site web / agenda municipal",
+        "url": "https://perigueux.fr/agenda.html",
+        "couverture": "Périgueux",
+        "description": "Agenda très fourni : visites guidées (Tour Mataguerre, Cathédrale Saint-Front), expositions (Vesunna), ateliers (Médiathèque), forum des associations, événements sportifs et culturels. Publications très régulières [citation:2][citation:9].",
+        "donnees_fournies": {
+          "nom_evenement": true,
+          "date": true,
+          "lieu": true,
+          "ville": true,
+          "code_postal": true,
+          "coordonnees_gps": false,
+          "contact": true,
+          "lien": true
+        },
+        "frequence_mise_a_jour": "très régulière (plusieurs publications par semaine)",
+        "recommandee": true,
+        "priorite": 1
+      },
+      {
+        "nom": "Ville de Bergerac - Agenda officiel",
+        "type": "site web / agenda municipal",
+        "url": "https://www.bergerac.fr/agenda/",
+        "couverture": "Bergerac",
+        "description": "Agenda municipal : expositions (Dordonha, Musée du Tabac, Centre d'art de la photographie), portes ouvertes du centre horticole, événements culturels [citation:3][citation:10].",
+        "donnees_fournies": {
+          "nom_evenement": true,
+          "date": true,
+          "lieu": true,
+          "ville": true,
+          "code_postal": true,
+          "coordonnees_gps": false,
+          "contact": true,
+          "lien": true
+        },
+        "frequence_mise_a_jour": "régulière",
+        "recommandee": true,
+        "priorite": 1
+      },
+      {
+        "nom": "Ville de Nontron - Agenda complet",
+        "type": "site web / agenda municipal",
+        "url": "https://nontron.fr/?view=article&id=234:agenda-complet",
+        "couverture": "Nontron",
+        "description": "Agenda municipal : salons (emploi), expositions, spectacles, événements à l'église et en salle des fêtes [citation:5][citation:12][citation:20].",
+        "donnees_fournies": {
+          "nom_evenement": true,
+          "date": true,
+          "lieu": true,
+          "ville": true,
+          "code_postal": true,
+          "coordonnees_gps": false,
+          "contact": false,
+          "lien": false
+        },
+        "frequence_mise_a_jour": "régulière",
+        "recommandee": true,
+        "priorite": 2
+      },
+      {
+        "nom": "JDS.fr - Sarlat-la-Canéda",
+        "type": "agenda local",
+        "url": "https://www.jds.fr/sarlat-la-caneda/agenda/",
+        "couverture": "Sarlat-la-Canéda et alentours",
+        "description": "Agenda des sorties à Sarlat : expositions (Abri du Cap-Blanc, Gare Robert Doisneau), visites nocturnes, marchés, club de lecture [citation:11][citation:19].",
+        "donnees_fournies": {
+          "nom_evenement": true,
+          "date": true,
+          "lieu": true,
+          "ville": true,
+          "code_postal": "partiel",
+          "coordonnees_gps": false,
+          "contact": "variable",
+          "lien": true
+        },
+        "frequence_mise_a_jour": "régulière",
+        "recommandee": true,
+        "priorite": 2
+      }
+    ],
+    "presse_locale": [
+      {
+        "nom": "Sud Ouest - Dordogne",
+        "type": "quotidien régional",
+        "url": "https://www.sudouest.fr/dordogne/",
+        "couverture": "Toute la Dordogne",
+        "description": "Quotidien régional avec rubrique locale. Couvre les événements sportifs, culturels et fêtes locales.",
+        "frequence_mise_a_jour": "quotidienne",
+        "recommandee": true,
+        "priorite": 2
+      }
+    ]
+  },
+  "grands_rendez_vous_annuels": [
+    {
+      "nom": "Châteaux en Fête",
+      "periode": "Printemps (avril-mai)",
+      "lieu": "112 châteaux, manoirs et demeures en Dordogne",
+      "description": "Visites costumées, dîners aux chandelles, spectacles, concerts."
+    },
+    {
+      "nom": "Epou'fest - Fête des Épouvantails de Meyrals",
+      "periode": "Juillet (24-26 juillet 2026)",
+      "lieu": "Meyrals (24220)",
+      "description": "27ème édition. Soirée d'inauguration, animations tout le week-end, entrée gratuite [citation:1]."
+    },
+    {
+      "nom": "Festival du Périgord Pourpre",
+      "periode": "1er au 14 août",
+      "lieu": "Château de Biron",
+      "description": "Festival de musique classique et jazz. Hommage à Michel Portal, La Bohème de Puccini, flamenco, récitals [citation:7]."
+    },
+    {
+      "nom": "Bastides en Fête",
+      "periode": "24-25 octobre 2026",
+      "lieu": "Vergt",
+      "description": "Exposition sur les métiers du Moyen Âge, animations dans la bastide [citation:8]."
+    },
+    {
+      "nom": "Festival Jazz Pourpre",
+      "periode": "Variable (printemps/été)",
+      "lieu": "Bergerac et Pays de Bergerac",
+      "description": "Concerts pédagogiques, village du festival, artistes internationaux (Ladyva, Yacouba trio, Akoda) [citation:14]."
+    },
+    {
+      "nom": "Festival des Jeux du Théâtre de Sarlat",
+      "periode": "Juillet-août",
+      "lieu": "Sarlat-la-Canéda",
+      "description": "Festival de théâtre de rue."
+    },
+    {
+      "nom": "Festival du Film de Sarlat",
+      "periode": "Novembre",
+      "lieu": "Sarlat-la-Canéda",
+      "description": "Festival de cinéma."
+    },
+    {
+      "nom": "Fête du Couteau de Nontron",
+      "periode": "Début août",
+      "lieu": "Nontron",
+      "description": "Fête traditionnelle autour de la coutellerie."
+    }
+  ],
+  "recommandations": {
+    "strategie": "Pour une veille complète : 1) Echo Périgord pour la vue d'ensemble, 2) Les newsletters PDF hebdomadaires de Périgord Noir Vallée Dordogne pour la fraîcheur, 3) Les agendas municipaux (Périgueux, Bergerac, Nontron) pour les événements locaux, 4) Pays de Bergerac Tourisme et Grand Périgueux pour les données structurées.",
+    "limitation_principale": "Aucune source ne fournit systématiquement les coordonnées GPS (latitude/longitude). Les codes postaux sont le meilleur identifiant géographique disponible.",
+    "pistes_amelioration": [
+      "Géocoder les adresses avec OpenStreetMap/Nominatim à partir des codes postaux et noms de villes.",
+      "S'abonner aux newsletters hebdomadaires de Périgord Noir Vallée Dordogne pour les mises à jour fréquentes.",
+      "Croiser les agendas municipaux avec les guides saisonniers des offices de tourisme."
+    ]
+  }
+}

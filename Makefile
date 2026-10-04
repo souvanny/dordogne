@@ -18,6 +18,7 @@ PHP_FPM = php
 
 data:
 	node scripts/build-data.mjs
+	node scripts/build-events.mjs
 
 ##################
 # Local

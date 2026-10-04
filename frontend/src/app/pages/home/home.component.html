@@ -8,6 +8,23 @@
   </div>
 </section>
 
+@if (evenementsAVenir$ | async; as evenements) {
+  @if (evenements.length > 0) {
+    <a class="events-banner" routerLink="/evenements">
+      <span class="events-tile">
+        <span class="events-tile-day">{{ jour(evenements[0]) }}</span>
+        <span class="events-tile-month">{{ mois(evenements[0]) }}</span>
+      </span>
+      <span class="events-text">
+        <span class="events-eyebrow">Agenda du Périgord</span>
+        <strong>{{ evenements.length }} événement{{ evenements.length > 1 ? 's' : '' }} à venir</strong>
+        <em>Prochain : {{ evenements[0].nom }}</em>
+      </span>
+      <span class="events-cta">Voir l'agenda <span aria-hidden="true">&rarr;</span></span>
+    </a>
+  }
+}
+
 <section class="sites">
   <div class="section-head">
     <h2>Les lieux &amp; monuments</h2>
