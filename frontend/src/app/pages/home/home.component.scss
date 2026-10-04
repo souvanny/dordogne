@@ -172,18 +172,12 @@
   align-items: center;
   gap: 1rem;
   margin-bottom: 1.25rem;
-  padding: 0.9rem 1.25rem;
-  background: linear-gradient(180deg, var(--green-50), var(--parchment));
+  padding: 1.4rem 1.4rem;
+  background-color: var(--parchment);
+  background-size: cover;
+  background-position: center;
   border-bottom: 1px solid var(--gold-300);
   border-radius: 0.6rem 0.6rem 0 0;
-}
-
-.category-icon {
-  width: 96px;
-  height: 96px;
-  object-fit: cover;
-  border-radius: 10px;
-  border: 1px solid var(--green-200);
 }
 
 .category-title {
@@ -191,6 +185,9 @@
   font-size: 1.35rem;
   font-weight: 600;
   color: var(--green-900);
+  hyphens: auto;
+  overflow-wrap: break-word;
+  min-width: 0;
 }
 
 .rule {

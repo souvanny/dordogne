@@ -60,6 +60,10 @@ export class HomeComponent {
     return d ? d.mois : '';
   }
 
+  categoryBackground(icon: string): string {
+    return `linear-gradient(rgba(250, 247, 240, 0.85), rgba(250, 247, 240, 0.85)), url(${icon})`;
+  }
+
   private partiesDate(event: Evenement): { jour: string; mois: string } | null {
     const iso = event.dateDebut ?? event.dateFin;
     if (!iso) return null;
