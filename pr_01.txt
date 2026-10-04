@@ -1,0 +1,8 @@
+Je voudrais commencer un nouveau projet.
+Avant cela je voudrais initialiser la stack technique : Docker, symfony, angular.
+Pour cela s'inspirer du projet dans ce dossier : ../espace-ogimi
+Je voudrais que tu t'en inspire : 
+- sans les entity pour le moment
+- juste symfony, angular, docker-compose
+- une base simple et vide
+- on le fait étape par étape

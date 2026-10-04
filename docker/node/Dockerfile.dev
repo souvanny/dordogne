@@ -1,0 +1,15 @@
+FROM node:24-alpine
+
+RUN apk add --no-cache bash chromium
+
+RUN printf '#!/bin/sh\nexec /usr/bin/chromium --headless=new --no-sandbox --disable-gpu --disable-dev-shm-usage --disable-software-rasterizer "$@"\n' \
+    > /usr/local/bin/chrome-no-sandbox \
+    && chmod +x /usr/local/bin/chrome-no-sandbox
+
+ENV CHROME_BIN=/usr/local/bin/chrome-no-sandbox
+
+WORKDIR /app
+
+EXPOSE 4200
+
+CMD ["sh", "-c", "npm install && npm start"]

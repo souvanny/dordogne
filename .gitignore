@@ -1,0 +1,7 @@
+/.idea/
+/_archive/
+/logs/
+/caches/
+/datas/
+.DS_Store
+.env.local
