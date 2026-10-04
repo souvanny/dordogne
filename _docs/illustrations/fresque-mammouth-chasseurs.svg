@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 280" width="500" height="280" role="img" aria-label="Fresque chasse au mammouth">
+  <!-- Texture paroi -->
+  <rect width="500" height="280" rx="40" fill="#F6F0E6"/>
+  <g opacity="0.18">
+    <path d="M0 40 Q120 60 250 35 T500 45 L500 280 L0 280 Z" fill="#E6D5B8"/>
+    <path d="M0 200 Q180 185 300 210 T500 195 L500 280 L0 280 Z" fill="#D9C2A3"/>
+  </g>
+
+  <!-- MAMMOUTH central - style Lascaux -->
+  <g id="mammouth" transform="translate(175,95)">
+    <!-- Corps -->
+    <path d="M -20 60 Q -30 20 10 8 Q 60 -8 110 12 Q 135 22 130 60 Q 128 95 100 105 Q 60 115 20 105 Z" fill="#2B1E16" />
+    <!-- Tete + trompe -->
+    <path d="M 110 12 Q 145 -5 155 25 Q 160 50 145 65 Q 130 75 118 50 Z" fill="#2B1E16"/>
+    <!-- Trompe enroulée -->
+    <path d="M 145 40 Q 175 35 180 55 Q 182 68 165 72 Q 158 60 145 55" fill="none" stroke="#2B1E16" stroke-width="10" stroke-linecap="round"/>
+    <!-- Defenses -->
+    <path d="M 118 35 Q 135 70 115 98" fill="none" stroke="#FFF6E0" stroke-width="6" stroke-linecap="round"/>
+    <path d="M 125 32 Q 148 65 135 92" fill="none" stroke="#E8DCC0" stroke-width="5" stroke-linecap="round" opacity="0.9"/>
+    <!-- Oreille -->
+    <ellipse cx="95" cy="28" rx="28" ry="22" fill="#3D2B1F"/>
+    <!-- Oeil -->
+    <circle cx="132" cy="22" r="4" fill="#FFF6E0"/>
+    <!-- Pattes -->
+    <g fill="#2B1E16">
+      <path d="M 10 95 Q 5 125 15 140 L 35 140 Q 32 110 45 95 Z"/>
+      <path d="M 85 105 Q 80 130 90 140 L 110 140 Q 108 115 118 102 Z"/>
+    </g>
+    <!-- Queue -->
+    <path d="M -20 55 Q -35 50 -30 35" fill="none" stroke="#2B1E16" stroke-width="5" stroke-linecap="round"/>
+    <!-- Poils ventre -->
+    <g stroke="#3D2B1F" stroke-width="1.5" opacity="0.6" stroke-linecap="round">
+      <path d="M 5 100 L 8 112"/><path d="M 20 105 L 23 118"/><path d="M 40 108 L 42 120"/><path d="M 65 110 L 68 122"/>
+    </g>
+    <!-- Lances plantées -->
+    <g transform="rotate(-25 50 40)">
+      <line x1="20" y1="20" x2="80" y2="20" stroke="#8B3A1A" stroke-width="3"/>
+      <polygon points="80,16 95,20 80,24" fill="#2B1E16"/>
+    </g>
+    <g transform="rotate(-15 90 50)">
+      <line x1="60" y1="25" x2="120" y2="25" stroke="#8B3A1A" stroke-width="3"/>
+      <polygon points="120,21 135,25 120,29" fill="#2B1E16"/>
+    </g>
+  </g>
+
+  <!-- CHASSEURS stick figures préhistoriques -->
+  <g id="chasseurs" fill="none" stroke="#1A0F08" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Chasseur 1 gauche - lance -->
+    <g transform="translate(60,145)">
+      <circle cx="0" cy="0" r="9" fill="#1A0F08" stroke="none"/>
+      <path d="M 0 10 L 0 40 M -12 20 L 12 20 M 0 40 L -10 65 M 0 40 L 10 65"/>
+      <line x1="12" y1="18" x2="45" y2="-5" stroke="#8B3A1A" stroke-width="3"/>
+      <polygon points="45,-9 58,-7 45,-1" fill="#1A0F08" stroke="none"/>
+    </g>
+    <!-- Chasseur 2 - arc -->
+    <g transform="translate(95,155)">
+      <circle cx="0" cy="0" r="9" fill="#1A0F08" stroke="none"/>
+      <path d="M 0 10 L 0 38 M -10 22 L 8 18 M 0 38 L -8 60 M 0 38 L 8 62"/>
+      <path d="M 8 12 Q 28 22 8 32" stroke="#8B3A1A" stroke-width="2.5" fill="none"/>
+      <line x1="8" y1="12" x2="28" y2="22" stroke="#1A0F08" stroke-width="1.2"/>
+    </g>
+    <!-- Chasseur 3 droite -->
+    <g transform="translate(380,140)">
+      <circle cx="0" cy="0" r="9" fill="#1A0F08" stroke="none"/>
+      <path d="M 0 10 L 0 40 M -12 18 L 10 24 M 0 40 L -10 65 M 0 40 L 10 65"/>
+      <line x1="10" y1="22" x2="40" y2="5" stroke="#8B3A1A" stroke-width="3"/>
+      <polygon points="40,1 53,3 40,9" fill="#1A0F08" stroke="none"/>
+    </g>
+    <!-- Chasseur 4 petit fond -->
+    <g transform="translate(415,155) scale(0.85)">
+      <circle cx="0" cy="0" r="9" fill="#1A0F08" stroke="none"/>
+      <path d="M 0 10 L 0 38 M -10 20 L 10 20 M 0 38 L -8 60 M 0 38 L 8 60"/>
+    </g>
+  </g>
+
+  <!-- Empreintes / symboles -->
+  <g opacity="0.35" fill="#8B3A1A">
+    <ellipse cx="140" cy="230" rx="8" ry="12" transform="rotate(-15 140 230)"/>
+    <ellipse cx="360" cy="220" rx="8" ry="12" transform="rotate(20 360 220)"/>
+  </g>
+
+  <!-- Taches ocre authentiques -->
+  <g opacity="0.25" fill="#C4451A">
+    <circle cx="40" cy="50" r="3"/><circle cx="460" cy="70" r="2.5"/><circle cx="430" cy="240" r="3.5"/>
+  </g>
+</svg>

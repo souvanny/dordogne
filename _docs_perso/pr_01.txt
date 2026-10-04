@@ -19,7 +19,12 @@ Et sur la home, un badge, un encart qui montre le nombre d'évènement à venir,
 
 Le dossier _docs/evenements_json est amené à évoluer ou changer.
 
+===
 
+Utiliser dans _docs/illustrations les imagesz svg.
+Les utilisers pour les catégories de sites.
+L'arbre c'est à placer quelque part.
+Rendre l'arbre avec une couleur plutôt verte. 
 
 
 
