@@ -170,8 +170,12 @@
 .category-head {
   display: flex;
   align-items: center;
-  gap: 0.6rem;
-  margin-bottom: 1rem;
+  gap: 1rem;
+  margin-bottom: 1.25rem;
+  padding: 0.9rem 1.25rem;
+  background: linear-gradient(180deg, var(--green-50), var(--parchment));
+  border-bottom: 1px solid var(--gold-300);
+  border-radius: 0.6rem 0.6rem 0 0;
 }
 
 .category-icon {
@@ -184,7 +188,7 @@
 
 .category-title {
   font-family: var(--serif);
-  font-size: 1.25rem;
+  font-size: 1.35rem;
   font-weight: 600;
   color: var(--green-900);
 }
