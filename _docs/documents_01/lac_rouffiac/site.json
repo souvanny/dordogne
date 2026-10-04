@@ -9,5 +9,9 @@
     "Le site dispose d’un camping 3 étoiles comprenant 44 locatifs, 32 emplacements de camping (dont 8 spécifiques camping-car) et un centre d’hébergement pour les groupes (122 places). Il est également équipé d’un bar-restaurant et d’une accessibilité aux personnes à mobilité réduite."
   ],
   "url": "https://rouffiac-loisirs.fr/",
-  "images": []
+  "images": [
+    "img/lac-rouffiac.jpg",
+    "img/rouffiac-plage.jpg"
+  ],
+  "credit": "Photos : Chats11 (CC BY-SA 4.0), Père Igor (CC BY-SA 3.0) — Wikimedia Commons"
 }

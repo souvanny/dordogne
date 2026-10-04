@@ -14,6 +14,9 @@
           <img [src]="image" [alt]="site.name" loading="lazy" />
         }
       </div>
+      @if (site.credit) {
+        <p class="credit">{{ site.credit }}</p>
+      }
     }
 
     <div class="body">

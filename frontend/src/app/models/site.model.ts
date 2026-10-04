@@ -8,6 +8,7 @@ export interface Site {
   description: string[];
   url: string;
   images: string[];
+  credit?: string;
 }
 
 export const CATEGORY_LABELS: Record<SiteCategory, string> = {

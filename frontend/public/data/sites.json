@@ -10,7 +10,11 @@
       "Le site dispose d’un camping 3 étoiles comprenant 44 locatifs, 32 emplacements de camping (dont 8 spécifiques camping-car) et un centre d’hébergement pour les groupes (122 places). Il est également équipé d’un bar-restaurant et d’une accessibilité aux personnes à mobilité réduite."
     ],
     "url": "https://rouffiac-loisirs.fr/",
-    "images": []
+    "images": [
+      "/data/images/base-rouffiac/lac-rouffiac.jpg",
+      "/data/images/base-rouffiac/rouffiac-plage.jpg"
+    ],
+    "credit": "Photos : Chats11 (CC BY-SA 4.0), Père Igor (CC BY-SA 3.0) — Wikimedia Commons"
   },
   {
     "id": "chateau-castelnaud",
@@ -38,7 +42,10 @@
       "Embelli notamment par l’ajout au XIXe siècle d’un jardin à la française et d’un parc paysager, c’est un site unique qui allie la splendeur de la nature et la majesté de l’architecture, à une culture du raffinement héritée et transmise au fil du temps."
     ],
     "url": "https://chateau-hautefort.com/",
-    "images": []
+    "images": [
+      "/data/images/chateau-hautefort/chateau-hautefort.jpg"
+    ],
+    "credit": "Photo : Jebulon — Wikimedia Commons (CC0)"
   },
   {
     "id": "gouffre-proumeyssac",
@@ -51,7 +58,11 @@
       "Plus tard, on parlera également de la vasque pétrifiante, dans laquelle les jeunes filles jetaient une pièce d’argent. C’était dans l’espoir de se marier dans l’année. Aujourd’hui encore, y tremper ses doigts est censé porter bonheur."
     ],
     "url": "https://www.gouffre-proumeyssac.com/",
-    "images": []
+    "images": [
+      "/data/images/gouffre-proumeyssac/gouffre-proumeyssac-1.jpg",
+      "/data/images/gouffre-proumeyssac/gouffre-proumeyssac-2.jpg"
+    ],
+    "credit": "Photos : TwoWings — Wikimedia Commons (domaine public)"
   },
   {
     "id": "roque-saint-christophe",
@@ -64,7 +75,11 @@
       "Ces cavités naturelles ont été occupées par l’Homme dès la Préhistoire, puis aménagées pour devenir un fort et une cité troglodytique, du Moyen Âge jusqu’au début de la Renaissance."
     ],
     "url": "https://www.roque-st-christophe.com/",
-    "images": []
+    "images": [
+      "/data/images/roque-saint-christophe/roque-saint-christophe.jpg",
+      "/data/images/roque-saint-christophe/roque-vezere.jpg"
+    ],
+    "credit": "Photos : Jebulon — Wikimedia Commons (CC0)"
   },
   {
     "id": "lascaux-2",
@@ -77,7 +92,10 @@
       "Guidé par la lueur d’une torche, laissez-vous transporter dans une expérience immersive et sensorielle : obscurité, fraîcheur, humidité, effluves souterraines…"
     ],
     "url": "https://lascaux-ii.fr/",
-    "images": []
+    "images": [
+      "/data/images/lascaux-2/lascaux-2-salle-taureaux.jpg"
+    ],
+    "credit": "Photo : Elke Wetzig — Wikimedia Commons (CC BY-SA 4.0)"
   },
   {
     "id": "lascaux-4",
@@ -89,7 +107,10 @@
       "Besoin d’inspiration ? De nombreuses visites adaptées pour tous vous feront découvrir la fabuleuse histoire de cette grotte unique au monde. Explorez l’époque de la préhistoire et profitez de l’intégration des nouvelles technologies qui enrichiront votre expérience de visite."
     ],
     "url": "https://lascaux.fr/",
-    "images": []
+    "images": [
+      "/data/images/lascaux-4/lascaux-4.jpg"
+    ],
+    "credit": "Photo : JanManu — Wikimedia Commons (CC BY-SA 4.0)"
   },
   {
     "id": "le-conquil",
@@ -102,6 +123,10 @@
       "Un site incontournable pour une sortie en famille, une activité originale en Dordogne ou une escapade insolite en Périgord Noir."
     ],
     "url": "https://leconquil.fr/",
-    "images": []
+    "images": [
+      "/data/images/le-conquil/le-conquil.jpg",
+      "/data/images/le-conquil/conquil-pigeonnier.jpg"
+    ],
+    "credit": "Photos : Tylwyth Eldar (CC BY-SA 4.0), Annabelle.B24 (CC BY 4.0) — Wikimedia Commons"
   }
 ]

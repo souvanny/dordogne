@@ -50,6 +50,13 @@
   object-fit: cover;
 }
 
+.credit {
+  margin-top: -0.6rem;
+  margin-bottom: 2rem;
+  font-size: 0.8rem;
+  color: var(--ink-muted);
+}
+
 .body {
   display: flex;
   flex-direction: column;

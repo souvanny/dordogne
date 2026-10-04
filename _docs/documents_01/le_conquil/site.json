@@ -9,5 +9,9 @@
     "Un site incontournable pour une sortie en famille, une activité originale en Dordogne ou une escapade insolite en Périgord Noir."
   ],
   "url": "https://leconquil.fr/",
-  "images": []
+  "images": [
+    "img/le-conquil.jpg",
+    "img/conquil-pigeonnier.jpg"
+  ],
+  "credit": "Photos : Tylwyth Eldar (CC BY-SA 4.0), Annabelle.B24 (CC BY 4.0) — Wikimedia Commons"
 }
